@@ -10,11 +10,11 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>AgeCalculatorServlet</servlet-name>
-        <url-pattern>/AgeCalculatorServlet</url-pattern>
+        <url-pattern>/age</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>ArithmeticCalculatorServlet</servlet-name>
-        <url-pattern>/ArithmeticCalculatorServlet</url-pattern>
+        <url-pattern>/arithmetic</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
@@ -22,7 +22,6 @@
         </session-timeout>
     </session-config>
     <welcome-file-list>
-        <welcome-file>AgeCalculatorServlet</welcome-file>
-        <welcome-file>ArithmeticCalculatorServlet</welcome-file>
+        <welcome-file>age</welcome-file>
     </welcome-file-list>
 </web-app>
